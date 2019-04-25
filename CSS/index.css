@@ -50,3 +50,49 @@
     display: none;
   }
   
+  .bg-dark .p-4{
+margin: 10px;
+align-content: center;
+justify-content: center;
+  }
+
+  .navbar-toggler:hover{
+color: antiquewhite;
+
+  }
+
+  .img-essential{
+      max-width: 75%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      align-content: center;
+    margin-top: 80px;
+    justify-content: space-around;
+    
+  }
+
+  .img{
+    
+      width: auto;
+      height: auto;
+      border-radius: 10%;
+    margin-left: 20px;
+    
+  }
+  .img-home{
+    width: 20%;
+    height: auto;
+    border-radius: 10%;
+  margin-left: 20px;
+  }
+
+  .container{
+max-width: 700px;
+
+  }
+
+  .content-about{
+      margin:10%;
+      border-radius: 10%;
+  }
