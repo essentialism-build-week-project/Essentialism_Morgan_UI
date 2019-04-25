@@ -61,7 +61,7 @@ color: antiquewhite;
 
   }
 
-  .img-essential{
+  /* .img-essential{
       max-width: 75%;
       height: auto;
       display: flex;
@@ -70,16 +70,20 @@ color: antiquewhite;
     margin-top: 80px;
     justify-content: space-around;
     
-  }
-  .img-essential-about{
+  } */
+  
+  .img-essential-about, .img-essential{
     max-width: 75%;
     height: auto;
     display: flex;
     align-items: center;
     align-content: center;
   margin-top: 80px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   
+}
+.img-essential{
+    margin-left: 8%;
 }
 
   .img{
@@ -91,7 +95,8 @@ color: antiquewhite;
     
   }
   .img-home{
-    width: 40%;
+    /* width: 40%; */
+    width: 30%;
     height: auto;
     border-radius: 10%;
   margin-left: 20px;
@@ -128,8 +133,8 @@ color: antiquewhite;
     
 
     .content-home{
-        width: 450px;
-        margin-left: 30%;
+        width: 400px;
+        /* margin-left: 30%; */
     }
     .copy{
         margin-left:0%;
@@ -139,7 +144,11 @@ color: antiquewhite;
   .content-home{
     border-radius: 10%;
     margin: 10%;
-    margin-left: 0%;
+    justify-items: center;
+    justify-content: center;
+    /* margin-right: 10%; */
+    
+    /* margin-left: 0%; */
     
   }
 
@@ -153,7 +162,7 @@ max-width: 700px;
       border-radius: 10%;
   }
   h1{
-      margin-left: 20%;
+      margin-left: 30%;
   }
  .content-home .button-home{
  
@@ -162,7 +171,7 @@ max-width: 700px;
 background-color:white;
 color: black;
 border-radius: 15%;
-margin-left: 40%;
+margin-left: 35%;
 margin-top: 10%;
   }
   .button-home:hover{
