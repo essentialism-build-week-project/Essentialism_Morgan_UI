@@ -85,13 +85,17 @@ color: antiquewhite;
 .img-essential{
     margin-left: 8%;
 }
+/* .img-essential-about{
+    margin-right: 40%; 
+} */
 
   .img{
     
       width: auto;
       height: auto;
       border-radius: 10%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-right: 5%;
     
   }
   .img-home{
@@ -99,6 +103,7 @@ color: antiquewhite;
     width: 30%;
     height: auto;
     border-radius: 10%;
+    
   margin-left: 20px;
 
   
@@ -130,10 +135,13 @@ color: antiquewhite;
 
         margin-left: 30%;
     }
-    
+    /* .home-h1{
+         margin-right: 10%;
+     } */
 
     .content-home{
         width: 400px;
+
         /* margin-left: 30%; */
     }
     .copy{
@@ -144,8 +152,8 @@ color: antiquewhite;
   .content-home{
     border-radius: 10%;
     margin: 10%;
-    justify-items: center;
-    justify-content: center;
+    /* justify-items: center;
+    justify-content: center; */
     /* margin-right: 10%; */
     
     /* margin-left: 0%; */
@@ -158,8 +166,11 @@ max-width: 700px;
   }
 
   .content-about{
-      margin:10%;
+      margin: 10%;
+      
       border-radius: 10%;
+
+      
   }
   h1{
       margin-left: 30%;
