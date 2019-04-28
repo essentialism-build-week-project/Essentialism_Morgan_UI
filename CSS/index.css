@@ -8,10 +8,11 @@
     position: relative;
     overflow: hidden;
     margin-top: 16px;
+    margin-left: 10%;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 700px) {
     .carousel {
-      width: 1200px;
+      width: 500px;
     }
   }
   .carousel .left-button,
@@ -45,7 +46,7 @@
     right: 25px;
     transform: translate(0, -50%);
   }
-  .carousel img {
+  .carousel .image {
     width: 100%;
     display: none;
   }
@@ -85,12 +86,7 @@ color: antiquewhite;
 .img-essential{
     margin-left: 8%;
 }
-.img-essential-about{
-    /* flex-wrap: wrap; */
-    
-   
-     
-}
+
 
   .img{
     
@@ -196,7 +192,7 @@ max-width: 700px;
  
     height: 80px;
     width: 200px;
-    background-color:orange;
+    background-color:black;
     color:whitesmoke;
 border-radius: 15%;
 margin-left: 35%;
