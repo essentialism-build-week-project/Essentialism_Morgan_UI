@@ -15,6 +15,12 @@
       width: 500px;
     }
   }
+  @media (min-width: 500px) {
+    .carousel {
+      width: 300px;
+      margin-left: 15%;
+    }
+  }
   .carousel .left-button,
   .carousel .right-button {
     display: flex;
@@ -197,6 +203,13 @@ max-width: 700px;
 border-radius: 15%;
 margin-left: 35%;
 margin-top: 10%;
+  }
+
+  @media (min-width: 500px) {
+    .content-home .button-home {
+      
+      margin-left: 15%;
+    }
   }
   .button-home:hover{
 
