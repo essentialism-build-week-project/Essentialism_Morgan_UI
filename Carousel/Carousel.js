@@ -27,17 +27,39 @@ class Carousel {
         //   this.rightButton.removeEventListener('click');
 
         //   }
-          this.contentIndex  === 0
+        // if(this.contentIndex > [this.image.length]-1 )
+         if (this.contentIndex <= [this.image.length] - 2  ){
+              // this.contentIndex = this.image.length;
+              this.image[this.contentIndex ].style.display = 'none';
 
-            this.image[this.contentIndex ].style.display = 'none';
-
-            this.contentIndex  += 1;
-
-            this.image[this.contentIndex].style.display = 'block';
-            this.contentIndex === this.image.length - 1;
+              this.contentIndex  += 1;
+          this.image[this.contentIndex].style.display = 'block';
+          this.rightButton.classList.add('right-button');
+          //  document.getElementsByClassName('container carousel')
+          // 
+          }else{
+            this.rightButton.classList.remove('right-button');
+          }
+            // this.contentIndex === this.image.length - 1;
             // this.rightButton.removeEventListener();
-            toggle(()=>this.rightClicked());
-            }
+            
+          //   if (this.contentIndex === 0) {
+
+          //     this.image[this.contentIndex].style.display = 'block';
+
+          //     this.contentIndex +=1;
+          //     this.image[this.contentIndex].style.display = 'none';
+
+          // } else if (this.contentIndex === this.image.length -1 ) {
+    
+              
+    
+              
+          //     this.image[this.contentIndex].style.display = 'block';
+
+
+          //   }
+          }
            
           
       leftClicked(){
