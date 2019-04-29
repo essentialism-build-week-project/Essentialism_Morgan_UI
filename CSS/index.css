@@ -116,6 +116,9 @@ color: antiquewhite;
 
   
   }
+  .home-content{
+    display:flex;
+  }
 .display{
     display:none;
 }
@@ -158,8 +161,10 @@ color: antiquewhite;
     }
 }
   .content-home{
+    width: 55%;
+    margin-left: 15%;
     border-radius: 10%;
-    margin: 10%;
+    /* padding: 5%; */
     
     /* justify-items: center;
     justify-content: center; */
@@ -194,7 +199,7 @@ max-width: 700px;
   h1{
       margin-left: 30%;
   }
- .content-home .button-home{
+ .container .button-home{
  
     height: 80px;
     width: 200px;
@@ -206,7 +211,13 @@ margin-top: 10%;
   }
 
   @media (max-width: 500px) {
-    .content-home .button-home {
+    .container{
+      width: 400px;
+    }
+    h1{
+      margin-left: 20%;
+  }
+     .button-home {
       
       margin-left: 15%;
     }
@@ -228,6 +239,7 @@ border-radius: 15%;
     .copy {
       
       font-size: 16px;
+      margin-left: 5%;
 
     }
   }
