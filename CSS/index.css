@@ -123,7 +123,11 @@ color: antiquewhite;
     display:none;
 }
   @media(max-width:500px){
-    
+  
+    .home-content{
+      display:block;
+      
+    }
     .img-home{
         display: none;
     }
@@ -239,7 +243,7 @@ border-radius: 15%;
     .copy {
       
       font-size: 16px;
-      margin-left: 5%;
+      margin-left: 0%;
 
     }
   }
