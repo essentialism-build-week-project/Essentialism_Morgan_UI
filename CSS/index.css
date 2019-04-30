@@ -62,11 +62,12 @@ margin: 10px;
 align-content: center;
 justify-content: center;
   }
+/* .navbar-toggler{
+  text-decoration-style: dashed;
+  color: #333;
+} */
+  
 
-  .navbar-toggler:hover{
-color: antiquewhite;
-
-  }
 
   /* .img-essential{
       max-width: 75%;
@@ -206,11 +207,11 @@ max-width: 700px;
   }
  .container .button-home{
  
-    height: 80px;
-    width: 200px;
+    height: 89px;
+    width: 220px;
     background-color:black;
     color:whitesmoke;
-border-radius: 15%;
+border-radius: 44%;
 margin-left: 35%;
 margin-top: 10%;
 
@@ -229,11 +230,11 @@ margin-top: 10%;
     }
   }
   .button-home:hover{
-
+    height: 89px;
+    width: 220px;
 background-color:white;
 color: black;
-border-radius: 10%;
-border-radius: 15%;
+border-radius: 44%;
 border:black solid 2px;
   }
 

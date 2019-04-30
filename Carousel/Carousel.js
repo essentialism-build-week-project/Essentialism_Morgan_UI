@@ -35,10 +35,13 @@ class Carousel {
               this.contentIndex  += 1;
           this.image[this.contentIndex].style.display = 'block';
           this.rightButton.classList.add('right-button');
+          this.rightButton.textContent = '>';
+          
           //  document.getElementsByClassName('container carousel')
           // 
           }else{
             this.rightButton.classList.remove('right-button');
+            this.rightButton.textContent = '|';
           }
             // this.contentIndex === this.image.length - 1;
             // this.rightButton.removeEventListener();
