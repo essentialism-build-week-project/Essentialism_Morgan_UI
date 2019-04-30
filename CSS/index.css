@@ -126,7 +126,7 @@ color: antiquewhite;
   
     .home-content{
       display:block;
-      width: 455px;
+      width: 450px;
       
     }
     .img-home{
@@ -247,4 +247,48 @@ border-radius: 15%;
       margin-left: 0%;
 
     }
+  }
+
+  svg {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+  }
+  
+  path {
+    stroke-dasharray: 600;
+    animation: draw 4s 1;
+    animation-direction: reverse;
+  
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 0
+    }
+    to {
+      stroke-dashoffset: 900;
+    }
+  }
+  
+  .signature {
+    position: relative;
+    display: flex;
+  }
+  
+  @keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  #sig-end {
+    position: absolute;
+    opacity: 0;
+    right: 450px;
+    top: 50px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 3s;
+      animation-fill-mode: forwards;
+  /* margin-left: 50%; */
   }
