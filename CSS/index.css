@@ -28,7 +28,8 @@
     align-items: none;
     flex-direction: row;
     color: #fff;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: rgb(25,25,112);
     font-size: 40px;
     border-radius: 50%;
     position: absolute;
@@ -38,9 +39,10 @@
   }
   .carousel .left-button:hover,
   .carousel .right-button:hover {
-    color: #333;
+    /* color: #333; */
+    color: rgb(25,25,112);
     background-color: #fff;
-    border: 2px solid #333;
+    border: 2px solid rgb(25,25,112);
   }
   .carousel .left-button {
     top: 50%;
@@ -61,6 +63,7 @@
 margin: 10px;
 align-content: center;
 justify-content: center;
+background-color:  rgb(4, 4, 100);
   }
 /* .navbar-toggler{
   text-decoration-style: dashed;
@@ -187,7 +190,10 @@ justify-content: center;
     margin-right: auto;
     border-style: solid;
     border-width: 3px;
-    color: black;
+    color: rgb(25,25,112);
+  }
+  h4{
+    color: rgb(25,25,112);
   }
 
   .container{
@@ -204,12 +210,13 @@ max-width: 700px;
   }
   h1{
       margin-left: 30%;
+      color: rgb(25,25,112);
   }
  .container .button-home{
  
     height: 89px;
     width: 220px;
-    background-color:black;
+    background-color: rgb(25,25,112);
     color:whitesmoke;
 border-radius: 44%;
 margin-left: 35%;
@@ -248,6 +255,7 @@ border:black solid 2px;
       
       font-size: 16px;
       margin-left: 0%;
+      color: rgb(25,25,112);
 
     }
   }
@@ -277,6 +285,7 @@ border:black solid 2px;
   .signature {
     position: relative;
     display: flex;
+    color: rgb(25,25,112);
   }
   
   @keyframes example {
@@ -293,5 +302,6 @@ border:black solid 2px;
     animation-duration: 10s;
     animation-delay: 3s;
       animation-fill-mode: forwards;
+      color: rgb(25,25,112);
   /* margin-left: 50%; */
   }
