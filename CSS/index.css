@@ -211,6 +211,12 @@ max-width: 700px;
   h1{
       margin-left: 30%;
       color: rgb(25,25,112);
+      /* justify-content: last baseline; */
+  }
+
+  .container .essential-header{
+    display: flex;
+    justify-content: baseline;
   }
  .container .button-home{
  
@@ -219,8 +225,10 @@ max-width: 700px;
     background-color: rgb(25,25,112);
     color:whitesmoke;
 border-radius: 44%;
-margin-left: 35%;
-margin-top: 10%;
+margin-left: 55%;
+margin-bottom: 25%;
+/* margin-top: 10%; */
+/* justify-items: first baseline; */
 
   }
 
@@ -231,12 +239,23 @@ margin-top: 10%;
     h1{
       margin-left: 20%;
   }
-     .button-home {
+  .container .button-home{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+
+
+  .container .essential-header{
+    display: block;
+    
+  }
+     /* .button-home {
       
       margin-left: 15%;
-    }
+    } */
   }
-  .button-home:hover{
+ .button-home:hover{
     height: 89px;
     width: 220px;
 background-color:white;
