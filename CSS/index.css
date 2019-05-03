@@ -218,6 +218,22 @@ max-width: 700px;
     display: flex;
     justify-content: baseline;
   }
+
+  .container .essential-header .link{
+text-decoration: none;
+color: antiquewhite;
+font-size: 20px;
+
+  }
+  .container .essential-header .link:hover{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 20px;
+    
+      }
+
+
+
  .container .button-home{
  
     height: 89px;
@@ -418,4 +434,18 @@ border:black solid 2px;
 }
 .tabs .tabs-link-selected:hover {
   background-color: #ffffff;
+}
+/* Animation */
+
+.container .essential-header .button-home {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: green;
+  }
 }
