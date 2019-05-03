@@ -192,7 +192,7 @@ background-color:  rgb(4, 4, 100);
     border-width: 3px;
     color: rgb(25,25,112);
   }
-  h4{
+  h4, h6{
     color: rgb(25,25,112);
   }
 
@@ -294,8 +294,8 @@ border:black solid 2px;
 
     }
   }
-
-  svg {
+/* Signature */
+  .svg {
     height: 100vh;
     width: 100vw;
     background-color: white;
@@ -338,9 +338,14 @@ border:black solid 2px;
     animation-delay: 3s;
       animation-fill-mode: forwards;
       color: rgb(25,25,112);
-  /* margin-left: 50%; */
-  }
+  margin-left: 50%;
+   }
 
+
+
+
+
+  
 
 /* Tabs */
 * {
