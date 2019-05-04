@@ -16,6 +16,27 @@ class Carousel {
     
     
       rightClicked(){
+
+
+
+
+        if (this.contentIndex !== [this.image.length] - 1  ){
+          // this.contentIndex = this.image.length;
+          this.image[this.contentIndex ].style.display = 'none';
+
+          this.contentIndex  += 1;
+      this.image[this.contentIndex].style.display = 'block';
+      this.rightButton.classList.add('right-button');
+      this.rightButton.textContent = '>';
+      
+      //  document.getElementsByClassName('container carousel')
+      // 
+      }else if (this.contentIndex === [this.image.length] - 1){
+        this.image[this.contentIndex ].style.display = 'none';
+        this.contentIndex - 1;
+        this.image[this.contentIndex].style.display = 'block';
+
+      }
         
         // if (this.contentIndex === this.image.length - 1) {
         //    this.contentIndex = this.image.length;
@@ -27,22 +48,30 @@ class Carousel {
         //   this.rightButton.removeEventListener('click');
 
         //   }
-        // if(this.contentIndex > [this.image.length]-1 )
-         if (this.contentIndex <= [this.image.length] - 2  ){
-              // this.contentIndex = this.image.length;
-              this.image[this.contentIndex ].style.display = 'none';
 
-              this.contentIndex  += 1;
-          this.image[this.contentIndex].style.display = 'block';
-          this.rightButton.classList.add('right-button');
-          this.rightButton.textContent = '>';
+
+
+        // if(this.contentIndex > [this.image.length]-1 )
+        //  if (this.contentIndex <= [this.image.length] - 2  ){
+        //       // this.contentIndex = this.image.length;
+        //       this.image[this.contentIndex ].style.display = 'none';
+
+        //       this.contentIndex  += 1;
+        //   this.image[this.contentIndex].style.display = 'block';
+        //   this.rightButton.classList.add('right-button');
+        //   this.rightButton.textContent = '>';
           
-          //  document.getElementsByClassName('container carousel')
-          // 
-          }else{
-            this.rightButton.classList.remove('right-button');
-            this.rightButton.textContent = '|';
-          }
+        //   //  document.getElementsByClassName('container carousel')
+        //   // 
+        //   }else{
+        //     this.rightButton.classList.remove('right-button');
+        //     this.rightButton.textContent = '|';
+        //   }
+
+
+
+
+
             // this.contentIndex === this.image.length - 1;
             // this.rightButton.removeEventListener();
             
